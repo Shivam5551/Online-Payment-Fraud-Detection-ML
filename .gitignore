@@ -1,2 +1,15 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset file
 onlinefraud.csv
-.ipynb_checkpoints
+
+# Optional: Ignore all CSV files
+# *.csv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook metadata (optional)
+*.nbconvert.ipynb
