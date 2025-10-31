@@ -267,7 +267,7 @@ export default function MainPredict() {
                         transition={{ duration: 0.05, type: 'spring' }}
                         whileTap={{ scale: 0.98 }}
                         type="submit"
-                        className="flex-1 cursor-pointer px-6 py-3 duration-200 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-cyan-800 transition-all shadow-md hover:shadow-lg"
+                        className="flex-1 cursor-pointer px-6 py-3 duration-200 bg-linear-to-r from-cyan-600 to-blue-700 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-cyan-800 transition-all shadow-md hover:shadow-lg"
                     >
                         <AnimatePresence mode="wait">
                             {submitting ? (
