@@ -155,7 +155,8 @@ export default function MainPredict() {
                         <LabelledInput
                             label="Step"
                             value={form.step}
-                            placeholder="Enter step (e.g., 2000)"
+                            min={1}
+                            placeholder="Enter step (e.g., 2)"
                             onChange={e =>
                                 setForm({ ...form, step: e.target.value })
                             }
