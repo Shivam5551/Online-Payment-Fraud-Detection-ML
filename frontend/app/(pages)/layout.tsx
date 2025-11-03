@@ -5,6 +5,8 @@ import Navbar from '@/components/custom/navbar/navbar';
 import { ThemeProvider } from '../theme-provider';
 import AuthProvider from '../auth-provider';
 import Footer from '@/components/custom/footer/footer';
+import ChatAssistant from '@/components/custom/chat-assistant/chatAssistant';
+
 
 export const metadata: Metadata = {
     title: 'Transecta — Smart Transaction Fraud Detection',
@@ -35,7 +37,7 @@ export default function RootLayout({
                                 {children}
                             </div>
                         </div>
-
+                        <ChatAssistant />
                         <div className="items-baseline">
                             <Footer />
                         </div>

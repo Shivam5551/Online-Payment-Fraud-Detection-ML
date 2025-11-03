@@ -7,9 +7,7 @@ interface IQuickLinks {
 
 const quickLinks: IQuickLinks[] = [
     { title: 'Home', route: '/' },
-    { title: 'How It Works', route: '/how-it-works' },
-    { title: 'Predict', route: '/predict' },
-    { title: 'About', route: '/about' },
+    { title: 'Predict', route: '/predict' }
 ];
 
 const Footer = () => {
@@ -58,7 +56,7 @@ const Footer = () => {
                         </ul>
                         <div className="mt-4 flex space-x-4">
                             <a
-                                href="#"
+                                href="https://github.com/Shivam5551/Online-Payment-Fraud-Detection-ML"
                                 className="text-gray-300 hover:text-white"
                             >
                                 <span className="sr-only">GitHub</span>
