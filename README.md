@@ -114,9 +114,6 @@ DIRECT_URL="direct-url"
 # ML API Endpoint
 ML_API=http://127.0.0.1:8080
 
-# Flowise AI
-FLOWISE_API_KEY=
-FLOWISE_URL=
 ```
 
 ---
